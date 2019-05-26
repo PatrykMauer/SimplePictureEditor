@@ -113,7 +113,7 @@ namespace GraphicProgram
 
         private void histogramButton_Click(object sender, EventArgs e)
         {
-            Effects.Histogram.seeHistogram(bitmap);
+            Effects.Histogram.seeHistogramTxt(bitmap);
             this.canvas.Refresh();
         }
 
@@ -122,6 +122,12 @@ namespace GraphicProgram
             Effects.OtsuThreshold.ApplyOtsuThreshold(ref bitmap);
             this.canvas.Refresh();
     
+        }
+
+        private void histogramJpgButton_Click(object sender, EventArgs e)
+        {
+            canvas.Image = Effects.Histogram.seeHistogramJpg(bitmap);
+            this.canvas.Refresh();
         }
     }
 }

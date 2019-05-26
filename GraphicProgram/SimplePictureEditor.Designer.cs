@@ -31,6 +31,8 @@
             this.panel = new System.Windows.Forms.Panel();
             this.canvas = new System.Windows.Forms.PictureBox();
             this.Toolbar = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.histogramButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.unknownEffectButton = new System.Windows.Forms.Button();
             this.sharpenLabel = new System.Windows.Forms.Label();
@@ -55,8 +57,7 @@
             this.negativeSlowButton = new System.Windows.Forms.Button();
             this.openFile = new System.Windows.Forms.OpenFileDialog();
             this.saveFile = new System.Windows.Forms.SaveFileDialog();
-            this.histogramButton = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.histogramJpgButton = new System.Windows.Forms.Button();
             this.panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.canvas)).BeginInit();
             this.Toolbar.SuspendLayout();
@@ -86,6 +87,7 @@
             // 
             // Toolbar
             // 
+            this.Toolbar.Controls.Add(this.histogramJpgButton);
             this.Toolbar.Controls.Add(this.button3);
             this.Toolbar.Controls.Add(this.histogramButton);
             this.Toolbar.Controls.Add(this.button1);
@@ -116,6 +118,26 @@
             this.Toolbar.TabIndex = 1;
             this.Toolbar.TabStop = false;
             this.Toolbar.Text = "Toolbar";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(102, 518);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(90, 52);
+            this.button3.TabIndex = 34;
+            this.button3.Text = "Otsu Threshold";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.otsuThresholdButton_Click);
+            // 
+            // histogramButton
+            // 
+            this.histogramButton.Location = new System.Drawing.Point(6, 518);
+            this.histogramButton.Name = "histogramButton";
+            this.histogramButton.Size = new System.Drawing.Size(90, 52);
+            this.histogramButton.TabIndex = 33;
+            this.histogramButton.Text = "HistogramTxt";
+            this.histogramButton.UseVisualStyleBackColor = true;
+            this.histogramButton.Click += new System.EventHandler(this.histogramButton_Click);
             // 
             // button1
             // 
@@ -344,25 +366,15 @@
             this.openFile.FileName = "openFileDialog1";
             this.openFile.Filter = "JPEG File|*.jpg|GIF File|*.gif|PNG File|*.png|BMP File|*.bmp";
             // 
-            // histogramButton
+            // histogramJpgButton
             // 
-            this.histogramButton.Location = new System.Drawing.Point(6, 518);
-            this.histogramButton.Name = "histogramButton";
-            this.histogramButton.Size = new System.Drawing.Size(90, 52);
-            this.histogramButton.TabIndex = 33;
-            this.histogramButton.Text = "Histogram";
-            this.histogramButton.UseVisualStyleBackColor = true;
-            this.histogramButton.Click += new System.EventHandler(this.histogramButton_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(102, 518);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 52);
-            this.button3.TabIndex = 34;
-            this.button3.Text = "Otsu Threshold";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.otsuThresholdButton_Click);
+            this.histogramJpgButton.Location = new System.Drawing.Point(6, 460);
+            this.histogramJpgButton.Name = "histogramJpgButton";
+            this.histogramJpgButton.Size = new System.Drawing.Size(90, 52);
+            this.histogramJpgButton.TabIndex = 35;
+            this.histogramJpgButton.Text = "HistogramJpg";
+            this.histogramJpgButton.UseVisualStyleBackColor = true;
+            this.histogramJpgButton.Click += new System.EventHandler(this.histogramJpgButton_Click);
             // 
             // SimplePictureEditor
             // 
@@ -418,6 +430,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button histogramButton;
+        private System.Windows.Forms.Button histogramJpgButton;
     }
 }
 
