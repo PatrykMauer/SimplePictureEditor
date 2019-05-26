@@ -1,0 +1,59 @@
+﻿
+            //Bitmap TempBitmap = pictureBox1.Image as Bitmap;
+
+            //Bitmap NewBitmap = new Bitmap(TempBitmap.Width, TempBitmap.Height);
+
+            //Graphics NewGraphics = Graphics.FromImage(NewBitmap);
+
+            //float FinalValue = (float)trackBar2.Value / 255.0f;
+
+            //float[][] FloatColorMatrix ={
+
+            //        new float[] {1, 0, 0, 0, 0},
+
+            //        new float[] {0, 1, 0, 0, 0},
+
+            //        new float[] {0, 0, 1, 0, 0},
+
+            //        new float[] {0, 0, 0, 1, 0},
+
+            //        new float[] {FinalValue, FinalValue, FinalValue, 1, 1}
+            //    };
+
+            //ColorMatrix NewColorMatrix = new ColorMatrix(FloatColorMatrix);
+
+            //ImageAttributes Attributes = new ImageAttributes();
+
+            //Attributes.SetColorMatrix(NewColorMatrix);
+
+            //NewGraphics.DrawImage(TempBitmap, new Rectangle(0, 0, TempBitmap.Width, TempBitmap.Height), 0, 0, TempBitmap.Width, TempBitmap.Height, GraphicsUnit.Pixel, Attributes);
+
+            //Attributes.Dispose();
+
+            //NewGraphics.Dispose();
+
+            //this.pictureBox1.Image = NewBitmap;
+ 
+    
+
+
+
+       
+            //Bitmap bmp = pictureBox1.Image as Bitmap;
+            //Graphics graphics = Graphics.FromImage(bmp);
+            //ImageAttributes imageAttributes = new ImageAttributes();
+            //var contrast = trackBar2.Value * 0.04f;
+            //ColorMatrix colorMatrix = new ColorMatrix(
+            //    new float[][]
+            //    {
+            //        new float[]{ contrast, 0f,0f,0f,0f},
+            //        new float[]{0f, contrast, 0f,0f,0f},
+            //        new float[]{0f,0f, contrast, 0f,0f},
+            //        new float[]{0f,0f,0f,1f,0f},
+            //        new float[]{0.001f, 0.001f, 0.001f, 0f,1f}
+            //    });
+            //imageAttributes.SetColorMatrix(colorMatrix);
+            //graphics.DrawImage(bmp, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, bmp.Width, bmp.Height, GraphicsUnit.Pixel, imageAttributes);
+            //graphics.Dispose();
+            //imageAttributes.Dispose();
+            //pictureBox1.Image = bmp;

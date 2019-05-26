@@ -1,0 +1,10 @@
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\bin\Debug\GraphicProgram.exe.config
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\bin\Debug\GraphicProgram.exe
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\bin\Debug\GraphicProgram.pdb
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\obj\Debug\GraphicProgram.csprojAssemblyReference.cache
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\obj\Debug\GraphicProgram.Properties.Resources.resources
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\obj\Debug\GraphicProgram.csproj.GenerateResource.cache
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\obj\Debug\GraphicProgram.csproj.CoreCompileInputs.cache
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\obj\Debug\GraphicProgram.exe
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\obj\Debug\GraphicProgram.pdb
+C:\Users\mzykr\source\repos\GraphicProgram\GraphicProgram\obj\Debug\GraphicProgram.SimplePictureEditor.resources
